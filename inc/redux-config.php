@@ -185,6 +185,43 @@
                     )
                 );  
 
+                //Stylesheets 
+                $styles = array(
+                    'bootstrap.min.css' => 'Bootstrap', 
+                    'cerulean.min.css'  => 'Cerulean', 
+                    'cosmo.min.css'     => 'Cosmo', 
+                    'cyborg.min.css'    => 'Cyborg',
+                    'darkly.min.css'    => 'Darkly',
+                    'flatly.min.css'    => 'Flatly', 
+                    'journal.min.css'   => 'Journal', 
+                    'lumen.min.css'     => 'Lumen', 
+                    'paper.min.css'     => 'Paper',
+                    'readable.min.css'  => 'Readable',
+                    'sandstone.min.css' => 'Sandstone', 
+                    'simplex.min.css'   => 'Simplex', 
+                    'slate.min.css'     => 'Slate', 
+                    'spacelab.min.css'  => 'Spacelab', 
+                    'superhero.min.css' => 'Superhero', 
+                    'united.min.css'    => 'United', 
+                    'yeti.min.css'      => 'Yeti'
+                );
+
+                //General            
+                $this->sections[] = array(
+                    'icon'      => 'el-icon-cog',
+                    'title'     => __('General', 'bootstrapwp'),
+                    'fields'    => array(
+                         array(   
+                        'type'      => 'select',
+                        'id'        => 'css_style',
+                        'title'     => __('Theme Stylesheet', 'bootstrapwp'), 
+                        'subtitle'  => __('Select your themes alternative color scheme.', 'bootstrapwp'),
+                        'default'   => 'bootstrap.min.css',
+                        'options'   => $styles,
+                        ),
+                    )
+                ); 
+
                 /**
                  * Used within different fields. Simply examples. Search for ACTUAL DECLARATION for field examples
                  * */
