@@ -15,6 +15,10 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
+<?php if (bswp_option('custom_favicon') != '') : ?>
+	<link rel="icon" type="image/png" href="<?php echo bswp_option('custom_favicon', false, 'url'); ?>" />
+<?php endif; ?>
+
 <?php wp_head(); ?>
 </head>
 
