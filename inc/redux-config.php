@@ -328,7 +328,20 @@
                 );
 
                 
-
+                //Social             
+                $this->sections[] = array(
+                    'icon'      => 'el-icon-torso',
+                    'title'     => __('Social', 'bootstrapwp'),
+                    'fields'    => array(
+                         array( 
+                            'title'     => __( 'Social Icons', 'bootstrapwp' ),
+                            'subtitle'  => __( 'Arrange your social icons. Add complete URLs to your social profiles.', 'bootstrapwp' ),
+                            'id'        => 'social_icons',
+                            'type'      => 'sortable',
+                            'options'   => $social_options,
+                        ),
+                    )
+                );
 
                 /**
                  * Used within different fields. Simply examples. Search for ACTUAL DECLARATION for field examples
