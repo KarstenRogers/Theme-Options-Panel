@@ -206,6 +206,29 @@
                     'yeti.min.css'      => 'Yeti'
                 );
 
+                // Array of social options
+                $social_options = array(
+                    'twitter'       => 'Twitter',
+                    'facebook'      => 'Facebook',
+                    'vk'            => 'Vk',
+                    'google-plus'   => 'Google Plus',
+                    'instagram'     => 'instagram',
+                    'linkedin'      => 'LinkedIn',
+                    'tumblr'        => 'Tumblr',
+                    'pinterest'     => 'Pinterest',
+                    'github-alt'    => 'Github',
+                    'dribbble'      => 'Dribbble',
+                    'flickr'        => 'Flickr',
+                    'skype'         => 'Skype',
+                    'youtube'       => 'Youtube',
+                    'vimeo-square'  => 'Vimeo',
+                    'reddit'        => 'Reddit',
+                    'stumbleupon'   => 'Stumbleupon',
+                    'github'        => 'Github',
+                    'vine'          => 'Vine',
+                    'rss'           => 'RSS',
+                );
+
                 //General            
                 $this->sections[] = array(
                     'icon'      => 'el-icon-cog',
@@ -305,6 +328,8 @@
                 );
 
                 
+
+
                 /**
                  * Used within different fields. Simply examples. Search for ACTUAL DECLARATION for field examples
                  * */

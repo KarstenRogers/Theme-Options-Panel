@@ -417,6 +417,10 @@ Media Queries
 	.poweredby {
 		float: right;
 	}
+
+	.social-icons {
+		float: right;
+	}
 }
 
 /* Large Devices, Wide Screens */
@@ -453,4 +457,16 @@ margin-top: 5px;
 
 .single-portfolio .hentry {
 	border-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+Social Icons
+--------------------------------------------------------------*/
+.social-icons {
+	font-size: 32px;
+	padding-bottom: 20px;
+}
+
+.social-icons a:hover{
+	text-decoration: none;
 }
