@@ -470,3 +470,13 @@ Social Icons
 .social-icons a:hover{
 	text-decoration: none;
 }
+
+/*--------------------------------------------------------------
+Homepage 
+--------------------------------------------------------------*/
+
+.homehero .hentry {
+	border-bottom: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
