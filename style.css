@@ -343,6 +343,10 @@ Footer
 	float: left;
 }
 
+.copyright, .poweredby {
+	padding-bottom: 20px;
+}
+
 /*--------------------------------------------------------------
 Post Meta
 --------------------------------------------------------------*/
@@ -410,7 +414,7 @@ Media Queries
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 
-	.copyright {
+	.poweredby {
 		float: right;
 	}
 }

@@ -277,9 +277,34 @@
                             'options'   => $btn_color,
                             'required'  => array('filter_switch','equals','1')
                         ),
+                        
                     )
                 );
 
+                //Footer             
+                $this->sections[] = array(
+                    'icon'      => 'el-icon-photo',
+                    'title'     => __('Footer', 'bootstrapwp'),
+                    'fields'    => array(
+                        array( 
+                            'title'     => __( 'Custom Copyright', 'bootstrapwp' ),
+                            'subtitle'  => __( 'Add your own custom text/html for copyright region.', 'bootstrapwp' ),
+                            'id'        => 'custom_copyright',
+                            'default'   => '&copy; Copyright 2014 - <a href="https://bootstrapwp.com">BootstrapWP.com</a>',
+                            'type'      => 'editor',
+                        ),
+
+                        array( 
+                            'title'     => __( 'Custom Powered By Text', 'bootstrapwp' ),
+                            'subtitle'  => __( 'Add your own custom text/html for powered by region.', 'bootstrapwp' ),
+                            'id'        => 'custom_power',
+                            'default'   => 'Powered by <a href="https://bootstrapwp.com">BootstrapWP</a>',
+                            'type'      => 'editor',
+                        ),
+                    )
+                );
+
+                
                 /**
                  * Used within different fields. Simply examples. Search for ACTUAL DECLARATION for field examples
                  * */
